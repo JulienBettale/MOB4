@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4647A3AC-F6C1-444D-B922-9A19EF221DF0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "484F5184-B51B-4C00-8F32-A170B2429868"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pictlonis/ViewControllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "LoginUserViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "484F5184-B51B-4C00-8F32-A170B2429868 - cc0e19c202e37fe0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pictlonis.LoginViewController.emailTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Pictlonis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuel/Ecole/MOB-4/group-792008/Pictlonis/Pictlonis/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "484F5184-B51B-4C00-8F32-A170B2429868 - 3f9cd94339212bec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pictlonis.LoginViewController.emailTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Pictlonis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuel/Ecole/MOB-4/group-792008/Pictlonis/Pictlonis/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "484F5184-B51B-4C00-8F32-A170B2429868 - 13ae1389697f0a11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pictlonis.LoginViewController.emailTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Pictlonis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuel/Ecole/MOB-4/group-792008/Pictlonis/Pictlonis/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "484F5184-B51B-4C00-8F32-A170B2429868 - f7433b802c121655"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pictlonis.LoginViewController.emailTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Pictlonis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuel/Ecole/MOB-4/group-792008/Pictlonis/Pictlonis/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "484F5184-B51B-4C00-8F32-A170B2429868 - cfb7cb71bde5d479"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pictlonis.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Pictlonis.LoginViewController"
+                  moduleName = "Pictlonis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuel/Ecole/MOB-4/group-792008/Pictlonis/Pictlonis/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "257">
+               </Location>
+               <Location
+                  uuid = "484F5184-B51B-4C00-8F32-A170B2429868 - 4ee5714c5651783d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pictlonis.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Pictlonis.LoginViewController&gt;"
+                  moduleName = "Pictlonis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuel/Ecole/MOB-4/group-792008/Pictlonis/Pictlonis/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

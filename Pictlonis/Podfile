@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Pictlonis' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pictlonis
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
+  pod 'Firebase/Core'
+
+  ## Authentication
+  pod 'Firebase/Auth'  
+
+  ## In-app messaging
+  pod 'Firebase/InAppMessaging'
+
+  ## Email Link/Passwordless Auth
+  pod 'Firebase/DynamicLinks'
+
+  ## Sign in with Google
+  pod 'GoogleSignIn'
+
+  ## Sign in with Facebook
+  pod 'FBSDKLoginKit'
+  
+  ## Color Picker
+  pod 'NKOColorPickerView'
+
+
+end

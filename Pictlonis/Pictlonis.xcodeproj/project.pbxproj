@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644685952518FA2C00587162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644685942518FA2C00587162 /* AppDelegate.swift */; };
+		644685972518FA2C00587162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644685962518FA2C00587162 /* SceneDelegate.swift */; };
+		644685992518FA2C00587162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644685982518FA2C00587162 /* ViewController.swift */; };
+		6446859C2518FA2C00587162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6446859A2518FA2C00587162 /* Main.storyboard */; };
+		6446859E2518FA2D00587162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6446859D2518FA2D00587162 /* Assets.xcassets */; };
+		644685A12518FA2D00587162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6446859F2518FA2D00587162 /* LaunchScreen.storyboard */; };
+		644685AA251901B200587162 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644685A9251901B200587162 /* DrawingView.swift */; };
+		644CCA372530A100002471E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 644CCA362530A100002471E9 /* GoogleService-Info.plist */; };
+		6476DA2725312D9C002EE38E /* LoginUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476DA2625312D9C002EE38E /* LoginUserViewController.swift */; };
+		6476DA2D25346897002EE38E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476DA2C25346897002EE38E /* SignUpViewController.swift */; };
+		6476DA562534A2D9002EE38E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476DA552534A2D9002EE38E /* Utilities.swift */; };
+		6476DA592534A475002EE38E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476DA582534A475002EE38E /* StartViewController.swift */; };
+		6476DA7E25350F64002EE38E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476DA7D25350F64002EE38E /* Constants.swift */; };
+		6476DA852535151E002EE38E /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476DA842535151E002EE38E /* DrawingViewController.swift */; };
+		64DD1319252761D1006E8223 /* NSPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD1318252761D1006E8223 /* NSPath.swift */; };
+		64DD131C252B5974006E8223 /* NSFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD131B252B5974006E8223 /* NSFirebase.swift */; };
+		95F557FE1022E5A6224C9618 /* Pods_Pictlonis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAF6EEBC63319F0E8AB2916 /* Pods_Pictlonis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E58CD3CA097DB1D59E6EBAD /* Pods-Pictlonis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pictlonis.debug.xcconfig"; path = "Target Support Files/Pods-Pictlonis/Pods-Pictlonis.debug.xcconfig"; sourceTree = "<group>"; };
+		2B2F4FB0272BF39AAA27F51C /* Pods-Pictlonis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pictlonis.release.xcconfig"; path = "Target Support Files/Pods-Pictlonis/Pods-Pictlonis.release.xcconfig"; sourceTree = "<group>"; };
+		644685912518FA2C00587162 /* Pictlonis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pictlonis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644685942518FA2C00587162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644685962518FA2C00587162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		644685982518FA2C00587162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6446859B2518FA2C00587162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6446859D2518FA2D00587162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644685A02518FA2D00587162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644685A22518FA2D00587162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644685A9251901B200587162 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		644CCA362530A100002471E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6476DA2625312D9C002EE38E /* LoginUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserViewController.swift; sourceTree = "<group>"; };
+		6476DA2C25346897002EE38E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6476DA552534A2D9002EE38E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		6476DA582534A475002EE38E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		6476DA7D25350F64002EE38E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6476DA842535151E002EE38E /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		64DD1318252761D1006E8223 /* NSPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPath.swift; sourceTree = "<group>"; };
+		64DD131B252B5974006E8223 /* NSFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSFirebase.swift; sourceTree = "<group>"; };
+		6DAF6EEBC63319F0E8AB2916 /* Pods_Pictlonis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pictlonis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6446858E2518FA2C00587162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F557FE1022E5A6224C9618 /* Pods_Pictlonis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5261EB754CB59A1D6696D3F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E58CD3CA097DB1D59E6EBAD /* Pods-Pictlonis.debug.xcconfig */,
+				2B2F4FB0272BF39AAA27F51C /* Pods-Pictlonis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		644685882518FA2C00587162 = {
+			isa = PBXGroup;
+			children = (
+				644685932518FA2C00587162 /* Pictlonis */,
+				644685922518FA2C00587162 /* Products */,
+				5261EB754CB59A1D6696D3F7 /* Pods */,
+				9287635213AAF403F6523BB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		644685922518FA2C00587162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644685912518FA2C00587162 /* Pictlonis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644685932518FA2C00587162 /* Pictlonis */ = {
+			isa = PBXGroup;
+			children = (
+				6476DA5B2534A48B002EE38E /* Helpers */,
+				6476DA2F253468BD002EE38E /* ViewControllers */,
+				644685942518FA2C00587162 /* AppDelegate.swift */,
+				644685962518FA2C00587162 /* SceneDelegate.swift */,
+				6446859A2518FA2C00587162 /* Main.storyboard */,
+				644685A9251901B200587162 /* DrawingView.swift */,
+				6446859D2518FA2D00587162 /* Assets.xcassets */,
+				6446859F2518FA2D00587162 /* LaunchScreen.storyboard */,
+				644685A22518FA2D00587162 /* Info.plist */,
+				644CCA362530A100002471E9 /* GoogleService-Info.plist */,
+			);
+			path = Pictlonis;
+			sourceTree = "<group>";
+		};
+		6476DA2F253468BD002EE38E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6476DA2625312D9C002EE38E /* LoginUserViewController.swift */,
+				6476DA2C25346897002EE38E /* SignUpViewController.swift */,
+				644685982518FA2C00587162 /* ViewController.swift */,
+				6476DA582534A475002EE38E /* StartViewController.swift */,
+				6476DA842535151E002EE38E /* DrawingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6476DA5B2534A48B002EE38E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				64DD131B252B5974006E8223 /* NSFirebase.swift */,
+				64DD1318252761D1006E8223 /* NSPath.swift */,
+				6476DA552534A2D9002EE38E /* Utilities.swift */,
+				6476DA7D25350F64002EE38E /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9287635213AAF403F6523BB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF6EEBC63319F0E8AB2916 /* Pods_Pictlonis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644685902518FA2C00587162 /* Pictlonis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644685A52518FA2D00587162 /* Build configuration list for PBXNativeTarget "Pictlonis" */;
+			buildPhases = (
+				002059E94030CE5F81B06E52 /* [CP] Check Pods Manifest.lock */,
+				6446858D2518FA2C00587162 /* Sources */,
+				6446858E2518FA2C00587162 /* Frameworks */,
+				6446858F2518FA2C00587162 /* Resources */,
+				EFE2FAA86F7167E8CCC69D27 /* [CP] Embed Pods Frameworks */,
+				E81B9D05383CE02041B7F14B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pictlonis;
+			productName = Pictlonis;
+			productReference = 644685912518FA2C00587162 /* Pictlonis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644685892518FA2C00587162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					644685902518FA2C00587162 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 6446858C2518FA2C00587162 /* Build configuration list for PBXProject "Pictlonis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644685882518FA2C00587162;
+			productRefGroup = 644685922518FA2C00587162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644685902518FA2C00587162 /* Pictlonis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6446858F2518FA2C00587162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644685A12518FA2D00587162 /* LaunchScreen.storyboard in Resources */,
+				644CCA372530A100002471E9 /* GoogleService-Info.plist in Resources */,
+				6446859E2518FA2D00587162 /* Assets.xcassets in Resources */,
+				6446859C2518FA2C00587162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002059E94030CE5F81B06E52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pictlonis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81B9D05383CE02041B7F14B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictlonis/Pods-Pictlonis-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictlonis/Pods-Pictlonis-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pictlonis/Pods-Pictlonis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE2FAA86F7167E8CCC69D27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictlonis/Pods-Pictlonis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictlonis/Pods-Pictlonis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pictlonis/Pods-Pictlonis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6446858D2518FA2C00587162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6476DA2725312D9C002EE38E /* LoginUserViewController.swift in Sources */,
+				644685992518FA2C00587162 /* ViewController.swift in Sources */,
+				64DD131C252B5974006E8223 /* NSFirebase.swift in Sources */,
+				644685952518FA2C00587162 /* AppDelegate.swift in Sources */,
+				6476DA592534A475002EE38E /* StartViewController.swift in Sources */,
+				644685972518FA2C00587162 /* SceneDelegate.swift in Sources */,
+				6476DA2D25346897002EE38E /* SignUpViewController.swift in Sources */,
+				64DD1319252761D1006E8223 /* NSPath.swift in Sources */,
+				6476DA852535151E002EE38E /* DrawingViewController.swift in Sources */,
+				6476DA562534A2D9002EE38E /* Utilities.swift in Sources */,
+				644685AA251901B200587162 /* DrawingView.swift in Sources */,
+				6476DA7E25350F64002EE38E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6446859A2518FA2C00587162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6446859B2518FA2C00587162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6446859F2518FA2D00587162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644685A02518FA2D00587162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644685A32518FA2D00587162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644685A42518FA2D00587162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644685A62518FA2D00587162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E58CD3CA097DB1D59E6EBAD /* Pods-Pictlonis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pictlonis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "manuel-Pictlonis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		644685A72518FA2D00587162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2F4FB0272BF39AAA27F51C /* Pods-Pictlonis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pictlonis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "manuel-Pictlonis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6446858C2518FA2C00587162 /* Build configuration list for PBXProject "Pictlonis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644685A32518FA2D00587162 /* Debug */,
+				644685A42518FA2D00587162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644685A52518FA2D00587162 /* Build configuration list for PBXNativeTarget "Pictlonis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644685A62518FA2D00587162 /* Debug */,
+				644685A72518FA2D00587162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644685892518FA2C00587162 /* Project object */;
+}
